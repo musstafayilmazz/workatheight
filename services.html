@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Formül Ekoloji</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="main.html">Ana Sayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Hizmetlerimiz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Hakkımızda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Bize Ulaşın</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <header class="text-center col-12">
+                <h1 class="text-uppercase"><strong>HİZMETLERİMİZ</strong></h1>
+            </header>
+            <div class="buffer col-12"></div>
+            <section class="text-center col-12">
+                <hr>
+            </section>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="worker1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yüksekte Çalışma Hizmetleri</h5>
+                        <p class="card-text">İhtiyacınız olan her türlü yüksekte çalışma hizmetlerini deneyimli kadromuzla sağlıyoruz</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="factory1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ücretsiz keşif gezileri</h5>
+                        <p class="card-text">İhtiyacınız olan her türlü destek içiniz iş yerinize ücretsiz keşif gezileri düzenliyoruz.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="factory2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yaşam Hattı Kurulumu</h5>
+                        <p class="card-text">İhtiyaç duymanız halinde iş yerinize yaşam hattı kuruyoruz.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+    
+      
+   
+  <canvas class="background"></canvas> 
+  <script src="particles.min.js"></script>
+
+  <script>
+    window.onload = function() {
+      Particles.init({
+        selector: '.background',
+        color: '#000000',
+        connectParticles: true,
+        shape: 'triangle',
+        sizeVariations: 3,
+        maxParticles: 100,
+        speed: 0.5
+      });
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body,
+html {
+  background: url(pexels-kelly-2898199.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
